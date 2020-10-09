@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ProfilePage from './components/ProfilePage';
+import MessageThread from './components/MessageThread';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
-import React, { components } from 'react';
+import React, { Components } from 'react';
 
-function ProfilePage(props) {
+function ProfilePage({ user }) {
     const showMessage = () => {
-        alert('Followed ' + props.user);
+        alert('Followed ' + user);
     };
     const handleClick = () => {
         setTimeout(showMessage, 3000);
@@ -12,4 +12,4 @@ function ProfilePage(props) {
     );
 }
 
-export default components;
+export default ProfilePage;
